@@ -9,7 +9,7 @@ const SiteMetadata = () => {
                 href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
             />
             <link
-                href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap"
+                href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro:300,400,700&display=swap"
                 rel="stylesheet"
             />
         </Helmet>
