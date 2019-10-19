@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import styles from "./css/styles.module.css";
+import styles from "./css/banner.module.scss";
 
 const Banner = () => {
     return (
@@ -38,16 +38,15 @@ const Banner = () => {
                     stand in her way what her heart desired as a boxer.
                 </p>
                 <p className={`p-relative`}>
-                    <Link
-                        to="/about-me"
-                        className={`${styles.btn} margin-right`}
+                    <a
+                        href="https://www.stratton-press.com/books/proud-to-be-me-rosalinda/"
+                        className="btn margin-right"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        READ IT NOW
-                    </Link>
-                    <Link
-                        to="/about-me"
-                        className={`${styles.btn} margin-left`}
-                    >
+                        BUY NOW
+                    </a>
+                    <Link to="/about-the-author" className="btn margin-left">
                         ABOUT THE AUTHOR
                     </Link>
                 </p>
@@ -59,9 +58,7 @@ const Banner = () => {
                     </strong>
                 </p>
                 <div className="flex">
-                    <div
-                        className={`${styles.current} ${styles.book} ${styles.book1}`}
-                    >
+                    <div className={`${styles.current} ${styles.book}`}>
                         <img src="../../book-1.jpg" alt="" />
                         <p style={{ width: 250 }}>
                             <small>
@@ -72,7 +69,7 @@ const Banner = () => {
                             </small>
                         </p>
                     </div>
-                    <div className={`${styles.book} ${styles.book2}`}>
+                    <div className={`${styles.book}`}>
                         <img src="../../book-2.jpg" alt="" />
                         <p style={{ width: 250 }}>
                             <small>
@@ -83,7 +80,7 @@ const Banner = () => {
                             </small>
                         </p>
                     </div>
-                    <div className={`${styles.book} ${styles.book3}`}>
+                    <div className={`${styles.book}`}>
                         <img src="../../book-3.jpg" alt="" />
                         <p style={{ width: 250 }}>
                             <small>

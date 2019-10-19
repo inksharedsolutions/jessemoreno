@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.company {
+    background-color: rgba(204, 204, 204, 0.2);
+    border: 1px solid rgba(204, 204, 204, 0.2);
+    padding: 2px 5px;
+    margin: 0 2px;
+    outline: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.margin-left {
+    margin-left: 1rem;
+}
+
+.margin-right {
+    margin-right: 1rem;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1180e1;
+    color: #fff;
+    text-decoration: none;
+    /* border-radius: 5px; */
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    min-width: 200px;
+}
