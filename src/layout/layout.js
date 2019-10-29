@@ -6,7 +6,7 @@ import "../../static/global.scss";
 
 const Layout = props => {
     return (
-        <div>
+        <div className={props.className}>
             <SiteMetadata />
             <Header />
             {props.children}

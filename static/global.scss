@@ -25,6 +25,11 @@ a {
     display: flex;
 }
 
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .text-white {
     color: #fff;
 }

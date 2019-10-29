@@ -1,28 +1,39 @@
-import React from "react";
+import React, { useState, setState } from "react";
 import { Link } from "gatsby";
+import styles from "./css/header.module.scss";
 
 const Header = () => {
+    const [isActive, setIsActive] = useState("");
+
+    const hamburgerHandler = () => {
+        let className = isActive === "" ? "is-active" : "";
+        setIsActive(className);
+    }
+
     return (
-        <div>
-            <header>
-                <nav>
-                    {/* <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/my-books">My Books</Link>
-                        </li>
-                        <li>
-                            <Link to="/about-me">About Me</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact-me">Contact Me</Link>
-                        </li>
-                    </ul> */}
-                </nav>
-            </header>
-        </div>
+        <header className={`${styles.header} ${styles[isActive]}`}>
+            <nav className={styles.nav}>
+                <button className={`${styles.hamburger} ${styles["hamburger--spin"]} ${styles[isActive]}`} type="button" onClick={hamburgerHandler}>
+                    <span className={styles["hamburger-box"]}>
+                        <span className={styles["hamburger-inner"]}></span>
+                    </span>
+                </button>
+                <ul className={`${styles["menu-list"]}`}>
+                    <li className={styles["menu-item"]}>
+                        <Link to="/" activeClassName={styles.current}>HOME</Link>
+                    </li>
+                    <li className={styles["menu-item"]}>
+                        <Link to="/about-the-author" activeClassName={styles.current}>ABOUT ME</Link>
+                    </li>
+                    <li className={styles["menu-item"]}>
+                        <Link to="/books" activeClassName={styles.current}>BOOKS</Link>
+                    </li>
+                    <li className={styles["menu-item"]}>
+                        <Link to="/contact" activeClassName={styles.current}>CONTACT</Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     );
 };
 

@@ -3,11 +3,9 @@ import { Link } from "gatsby";
 import Layout from "../layout/layout";
 import styles from "./css/about-the-author.module.scss";
 
-console.log(styles);
-
 const About = () => {
     return (
-        <Layout>
+        <Layout className={styles["about-and-books"]}>
             <div className={styles["about-the-author"]}>
                 <div className={styles["about-jesse"]}>
                     <h1>JESSE MORENO</h1>
