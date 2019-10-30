@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../layout/layout";
+import Layout from "../../layout/layout";
 
-const Books = () => {
+const Contact = () => {
     return (
         <Layout>
             <p>This is a test.</p>
@@ -9,4 +9,4 @@ const Books = () => {
     );
 };
 
-export default Books;
+export default Contact;

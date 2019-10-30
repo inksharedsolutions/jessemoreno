@@ -59,7 +59,7 @@ const Banner = () => {
                 </p>
                 <div className="flex">
                     <div className={`${styles.current} ${styles.book}`}>
-                        <img src="../../book-1.jpg" alt="" />
+                        <Link to="/books/proud-to-be-me-part-1" className={styles["book-link"]}><img src="book-1.jpg" alt="" /></Link>
                         <p style={{ width: 250 }}>
                             <small>
                                 A beautiful Mexican girl, ventures out to Los
@@ -69,8 +69,8 @@ const Banner = () => {
                             </small>
                         </p>
                     </div>
-                    <div className={`${styles.book}`}>
-                        <img src="../../book-2.jpg" alt="" />
+                    <div className={`${styles.current} ${styles.book}`}>
+                        <Link to="/books/proud-to-be-me-part-2" className={styles["book-link"]}><img src="book-2.jpg" alt="" /></Link>
                         <p style={{ width: 250 }}>
                             <small>
                                 Rosalinda's passion for boxing has made her a
@@ -80,8 +80,8 @@ const Banner = () => {
                             </small>
                         </p>
                     </div>
-                    <div className={`${styles.book}`}>
-                        <img src="../../book-3.jpg" alt="" />
+                    <div className={`${styles.current} ${styles.book}`}>
+                        <Link to="/books/coming-soon" className={styles["book-link"]}><img src="book-3.jpg" alt="" /></Link>
                         <p style={{ width: 250 }}>
                             <small>
                                 Jesse Moreno's third book is under production.

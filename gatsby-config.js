@@ -17,5 +17,11 @@ module.exports = {
                 postCssPlugins: [autoprefixer()],
             },
         },
+        {
+            resolve: `gatsby-plugin-disqus`,
+            options: {
+                shortname: `jessemoreno`
+            }
+        }
     ],
 };
