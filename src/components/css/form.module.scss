@@ -1,0 +1,92 @@
+.flat-form {
+    // background: #1180e1;
+    margin: 25px auto;
+    padding: 1.5rem 0;
+    position: relative;
+}
+
+.form-action {
+    padding: 0 20px;
+    position: relative;
+}
+
+.form-action h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.form-action p {
+    line-height: 2;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+form {
+    padding-right: 20px !important;
+}
+
+form input[type=text],
+form input[type=email],
+form textarea,
+form button {
+    font-family: 'Roboto';
+}
+
+form input[type=text],
+form input[type=email],
+form textarea {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background: #fff;
+    border: 1px solid #1180e1;
+    color: #e74c3c;
+    outline: none;
+}
+
+form textarea {
+    height: 125px;
+    resize: none;
+    padding: 1rem;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    display: block;
+    background: #1180e1;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.15s linear;
+}
+
+.button:hover {
+    background: #1e75aa;
+    /*box-shadow: 0 3px 1px #237bb2;*/
+}
+
+.button:active {
+    background: #1180e1;
+    /*box-shadow: 0 3px 1px #0f608c;*/
+}
+
+::-webkit-input-placeholder {
+    color: #e74c3c;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #e74c3c;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #e74c3c;
+}
+
+:-ms-input-placeholder {
+    color: #e74c3c;
+}

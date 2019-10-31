@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
+import Header from "../components/header";
 import styles from "./css/banner.module.scss";
 
 const Banner = () => {
     return (
-        <div className={styles.banner}>
+        <div className={`${styles.banner} layout`}>
+            <Header logo={`logo-white.png`} />
             <div className={styles["banner-text"]}>
                 <p className="heading no-margin">
                     <strong>
@@ -21,7 +23,7 @@ const Banner = () => {
                     </strong>
                 </p>
                 <h1 className="no-margin">Proud To Be Me: Rosalinda</h1>
-                <p className={styles.tags}>
+                <p className={`tags`}>
                     <span>
                         <small>Literature & Fiction</small>
                     </span>
@@ -40,13 +42,13 @@ const Banner = () => {
                 <p className={`p-relative`}>
                     <a
                         href="https://www.stratton-press.com/books/proud-to-be-me-rosalinda/"
-                        className="btn margin-right"
+                        className="btn"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         BUY NOW
                     </a>
-                    <Link to="/about-the-author" className="btn margin-left">
+                    <Link to="/about-the-author" className="btn">
                         ABOUT THE AUTHOR
                     </Link>
                 </p>
@@ -57,9 +59,14 @@ const Banner = () => {
                         Books by the same author:
                     </strong>
                 </p>
-                <div className="flex">
-                    <div className={`${styles.current} ${styles.book}`}>
-                        <Link to="/books/proud-to-be-me-part-1" className={styles["book-link"]}><img src="book-1.jpg" alt="" /></Link>
+                <div className="flex justify-content-center">
+                    <div className={styles.book}>
+                        <Link
+                            to="/books/proud-to-be-me-part-1"
+                            className={styles["book-link"]}
+                        >
+                            <img src="book-1.jpg" alt="" />
+                        </Link>
                         <p style={{ width: 250 }}>
                             <small>
                                 A beautiful Mexican girl, ventures out to Los
@@ -69,8 +76,13 @@ const Banner = () => {
                             </small>
                         </p>
                     </div>
-                    <div className={`${styles.current} ${styles.book}`}>
-                        <Link to="/books/proud-to-be-me-part-2" className={styles["book-link"]}><img src="book-2.jpg" alt="" /></Link>
+                    <div className={styles.book}>
+                        <Link
+                            to="/books/proud-to-be-me-part-2"
+                            className={styles["book-link"]}
+                        >
+                            <img src="book-2.jpg" alt="" />
+                        </Link>
                         <p style={{ width: 250 }}>
                             <small>
                                 Rosalinda's passion for boxing has made her a
@@ -80,8 +92,10 @@ const Banner = () => {
                             </small>
                         </p>
                     </div>
-                    <div className={`${styles.current} ${styles.book}`}>
-                        <Link to="/books/coming-soon" className={styles["book-link"]}><img src="book-3.jpg" alt="" /></Link>
+                    <div className={styles.book}>
+                        <a href="#coming-soon" className={styles["book-link"]}>
+                            <img src="book-3.jpg" alt="" />
+                        </a>
                         <p style={{ width: 250 }}>
                             <small>
                                 Jesse Moreno's third book is under production.
@@ -92,7 +106,6 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.overlay}></div>
         </div>
     );
 };

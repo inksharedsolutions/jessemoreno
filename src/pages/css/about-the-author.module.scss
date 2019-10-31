@@ -1,23 +1,56 @@
-.about-and-books {
-    .about-the-author {
-        position: relative;
-        height: 100vh;
-        background: #000 url('../../../static/author.jpg') no-repeat center right / contain;
-        padding: 1rem;
-        color: #fff;
-        line-height: 1.5;
-    }
+.about-the-author {
+    color: #fff;
+    background: #000 url('../../../static/author.jpg') no-repeat center right / contain;
+    line-height: 1.5;
 
     h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         margin: 0;
     }
 
+    :global(.menu-item) {
+        :global(a) {
+
+            &:global(.current),
+            &:hover {
+                border-color: #fff;
+            }
+        }
+    }
+
     .about-jesse {
-        position: absolute;
-        top: 50%;
-        left: 10rem;
-        transform: translateY(-50%);
-        width: 60%;
+        width: 65%;
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .about-the-author {
+        position: relative;
+        height: 100vh;
+
+        h1 {
+            font-size: 5rem;
+            margin: 0;
+        }
+
+        .about-jesse {
+            position: absolute;
+            top: 50%;
+            left: 2rem;
+            transform: translateY(-50%);
+            width: 60%;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .about-the-author {
+        .about-jesse {
+            width: 650px;
+            max-width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
     }
 }

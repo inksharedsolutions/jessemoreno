@@ -1,12 +1,17 @@
 import React from "react";
-import Layout from "../layout/layout";
 import Banner from "../components/banner";
+import { Helmet } from "react-helmet";
+import SiteMetadata from "../components/metadata";
 
 const Home = () => {
     return (
-        <Layout>
+        <>
+            <SiteMetadata />
+            <Helmet>
+                <title>Home</title>
+            </Helmet>
             <Banner />
-        </Layout>
+        </>
     );
 };
 
