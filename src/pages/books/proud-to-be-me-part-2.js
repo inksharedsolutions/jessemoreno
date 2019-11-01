@@ -10,14 +10,14 @@ const Book2 = () => {
         title: `Proud To Be Me: Rosalinda Part 2`,
     };
     return (
-        <Layout className="white-bg" logo={`/logo.png`}>
+        <Layout className="white-bg" logo={`logo.png`}>
             <Helmet>
                 <title>Proud To Be Me: Rosalinda Part 2</title>
             </Helmet>
             <div className="container" style={{ backgroundColor: "#fff" }}>
                 <Post
                     disqusConfig={disqusConfig}
-                    cover="/part2.png"
+                    cover="part2.png"
                     title={["Proud To Be Me: Rosalinda", <br />, "Part II"]}
                 >
                     <p>

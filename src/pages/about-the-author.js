@@ -6,7 +6,7 @@ import styles from "./css/about-the-author.module.scss";
 
 const About = () => {
     return (
-        <Layout className={styles["about-the-author"]} logo={`/logo-white.png`}>
+        <Layout className={styles["about-the-author"]} logo={`logo-white.png`}>
             <Helmet>
                 <title>About the Author</title>
             </Helmet>
