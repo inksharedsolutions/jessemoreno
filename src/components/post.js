@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./css/post.module.scss";
-import { Disqus, CommentCount } from "gatsby-plugin-disqus";
+import { Disqus } from "gatsby-plugin-disqus";
 
 const Post = props => {
-    console.log(props);
     return (
         <>
             <div className={`${styles["book-meta"]} flex`}>

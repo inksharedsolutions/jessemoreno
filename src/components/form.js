@@ -15,7 +15,7 @@ export default class MyForm extends React.Component {
         return (
             <div className={styles["flat-form"]}>
                 <div className={styles["form-action"]}>
-                    <h1>Contact Jesse Moreno</h1>
+                    <h1>Contact</h1>
                     <p>
                         Hello! Are you having a good day? Anyway, if you have
                         any concerns or you just want to share something, please

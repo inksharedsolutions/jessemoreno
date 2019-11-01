@@ -29,6 +29,7 @@
 
     .book {
         margin: 1rem;
+        font-weight: 300;
         cursor: pointer;
     }
 
@@ -92,7 +93,7 @@
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 850px) {
     .banner {
         .banner-text {
             h1 {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Header = props => {
     let [isActive, setIsActive] = useState(false);
@@ -10,9 +10,9 @@ const Header = props => {
     return (
         <>
             <header className={"header"}>
-                <Link to="/">
+                <AniLink cover bg="#020c15" to="/">
                     <img className="logo" src={props.logo} alt="" />
-                </Link>
+                </AniLink>
                 <button
                     className={`hamburger hamburger--squeeze ${
                         isActive === true ? "is-active" : ""
@@ -27,52 +27,72 @@ const Header = props => {
                 <nav className={`nav ${isActive === true ? "is-active" : ""}`}>
                     <ul className={"menu-list"}>
                         <li className={"menu-item"}>
-                            <Link to="/" activeClassName={"current"}>
+                            <AniLink
+                                cover
+                                bg="#020c15"
+                                to="/"
+                                activeClassName={"current"}
+                            >
                                 HOME
-                            </Link>
+                            </AniLink>
                         </li>
                         <li className={"menu-item"}>
-                            <Link
+                            <AniLink
+                                cover
+                                bg="#020c15"
                                 to="/about-the-author"
                                 activeClassName={"current"}
                             >
                                 ABOUT THE AUTHOR
-                            </Link>
+                            </AniLink>
                         </li>
                         <li className={"menu-item"}>
-                            <Link
+                            <AniLink
+                                cover
+                                bg="#020c15"
                                 to="/books/proud-to-be-me-part-1"
                                 activeClassName={"current"}
                                 partiallyActive={true}
                             >
                                 BOOKS
-                            </Link>
+                            </AniLink>
                             <ul className="child-menu">
                                 <li>
-                                    <Link
+                                    <AniLink
+                                        cover
+                                        bg="#020c15"
                                         to="/books/proud-to-be-me-part-1"
                                         activeClassName={"current"}
                                     >
                                         Proud To Be Me: Rosalinda
-                                    </Link>
+                                    </AniLink>
                                 </li>
                                 <li>
-                                    <Link
+                                    <AniLink
+                                        cover
+                                        bg="#020c15"
                                         to="/books/proud-to-be-me-part-2"
                                         activeClassName={"current"}
                                     >
                                         Proud To Be Me: Rosalinda Part II
-                                    </Link>
+                                    </AniLink>
                                 </li>
                                 <li>
-                                    <Link to="#">Coming Soon</Link>
+                                    <AniLink cover bg="#020c15" to="/">
+                                        Coming Soon
+                                    </AniLink>
                                 </li>
                             </ul>
                         </li>
                         <li className={"menu-item"}>
-                            <Link to="/contact" activeClassName={"current"}>
+                            <AniLink
+                                cover
+                                bg="#020c15"
+                                to="/contact"
+                                activeClassName={"current"}
+                            >
                                 CONTACT
-                            </Link>
+                            </AniLink>
                         </li>
                     </ul>
                 </nav>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import { Helmet } from "react-helmet";
 import Layout from "../layout/layout";
 import styles from "./css/about-the-author.module.scss";
@@ -35,7 +35,9 @@ const About = () => {
                     the future with dates already planned.
                 </p>
                 <p className="btn">
-                    <Link to="/books">EXPLORE HIS BOOKS</Link>
+                    <AniLink cover to="/books">
+                        EXPLORE HIS BOOKS
+                    </AniLink>
                 </p>
             </div>
         </Layout>

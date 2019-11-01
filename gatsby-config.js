@@ -8,6 +8,7 @@ const autoprefixer = require("autoprefixer");
 module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-transition-link`,
         {
             resolve: `gatsby-plugin-sass`,
             options: {

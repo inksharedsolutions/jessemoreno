@@ -1,0 +1,24 @@
+.terms-privacy-links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px 0;
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+
+    li {
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .terms-privacy-links {
+        width: 100%;
+
+        ul {
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}

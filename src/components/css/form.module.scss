@@ -1,54 +1,66 @@
+$color_1: #e74c3c;
+$color_2: #ffffff;
+
 .flat-form {
-    // background: #1180e1;
     margin: 25px auto;
     padding: 1.5rem 0;
     position: relative;
+    font-weight: 300;
 }
 
 .form-action {
-    padding: 0 20px;
     position: relative;
-}
 
-.form-action h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0;
-}
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
 
-.form-action p {
-    line-height: 2;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    p {
+        line-height: 2;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
 }
 
 form {
     padding-right: 20px !important;
-}
 
-form input[type=text],
-form input[type=email],
-form textarea,
-form button {
-    font-family: 'Roboto';
-}
+    input[type=text] {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        background: #fff;
+        border: 1px solid #1180e1;
+        color: $color_1;
+        outline: none;
+    }
 
-form input[type=text],
-form input[type=email],
-form textarea {
-    width: 100%;
-    height: 40px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    background: #fff;
-    border: 1px solid #1180e1;
-    color: #e74c3c;
-    outline: none;
-}
+    input[type=email] {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        background: #fff;
+        border: 1px solid #1180e1;
+        color: $color_1;
+        outline: none;
+    }
 
-form textarea {
-    height: 125px;
-    resize: none;
-    padding: 1rem;
+    textarea {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        background: #fff;
+        border: 1px solid #1180e1;
+        color: $color_1;
+        outline: none;
+        height: 125px;
+        resize: none;
+        padding: 1rem;
+    }
 }
 
 .button {
@@ -58,31 +70,31 @@ form textarea {
     background: #1180e1;
     height: 40px;
     width: 80px;
-    color: #ffffff;
+    color: $color_2;
     text-align: center;
     transition: all 0.15s linear;
-}
 
-.button:hover {
-    background: #1e75aa;
-}
+    &:hover {
+        background: #1e75aa;
+    }
 
-.button:active {
-    background: #1180e1;
+    &:active {
+        background: #1180e1;
+    }
 }
 
 ::-webkit-input-placeholder {
-    color: #e74c3c;
+    color: $color_1;
 }
 
 :-moz-placeholder {
-    color: #e74c3c;
+    color: $color_1;
 }
 
 ::-moz-placeholder {
-    color: #e74c3c;
+    color: $color_1;
 }
 
 :-ms-input-placeholder {
-    color: #e74c3c;
+    color: $color_1;
 }

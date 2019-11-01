@@ -56,6 +56,66 @@ const Book1 = () => {
                             <em>"The Rose."</em>
                         </strong>
                     </p>
+                    <p>
+                        <strong
+                            style={{
+                                display: "inline-block",
+                                marginBottom: 5,
+                            }}
+                        >
+                            Buy now:
+                        </strong>
+                        <ul className="tags flex" style={{ marginTop: 0 }}>
+                            <li>
+                                <a
+                                    href="https://www.amazon.com/dp/1643456180/ref=sr_1_1?keywords=9781643456188&qid=1563204703&s=gateway&sr=8-1"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <span
+                                        style={{
+                                            backgroundColor: "#1180e1",
+                                            color: "#fff",
+                                        }}
+                                    >
+                                        Amazon
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.barnesandnoble.com/w/proud-to-be-me-rosalinda-jesse-moreno/1117301921?ean=9781643456188"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <span
+                                        style={{
+                                            backgroundColor: "#1180e1",
+                                            color: "#fff",
+                                        }}
+                                    >
+                                        Barnes and Noble
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.stratton-press.com/books/proud-to-be-me-rosalinda/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <span
+                                        style={{
+                                            backgroundColor: "#1180e1",
+                                            color: "#fff",
+                                        }}
+                                    >
+                                        Stratton Press
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </p>
                 </Post>
             </div>
         </Layout>

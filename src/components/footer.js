@@ -1,28 +1,23 @@
 import React from "react";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+import styles from "./css/footer.module.scss";
 
 const Footer = () => {
     return (
-        <div>
-            <footer>
-                <nav>
-                    {/* <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/my-books">My Books</Link>
-                        </li>
-                        <li>
-                            <Link to="/about-me">About Me</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact-me">Contact Me</Link>
-                        </li>
-                    </ul> */}
-                </nav>
-            </footer>
-        </div>
+        <footer className={styles["terms-privacy-links"]}>
+            <ul className="flex">
+                <li>
+                    <AniLink cover to="/terms-and-conditions">
+                        Terms and Conditions
+                    </AniLink>
+                </li>
+                <li>
+                    <AniLink cover to="/privacy-policy">
+                        Privacy Policy
+                    </AniLink>
+                </li>
+            </ul>
+        </footer>
     );
 };
 

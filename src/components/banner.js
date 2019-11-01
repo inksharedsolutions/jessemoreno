@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import styles from "./css/banner.module.scss";
 
 const Banner = () => {
@@ -48,9 +49,14 @@ const Banner = () => {
                     >
                         BUY NOW
                     </a>
-                    <Link to="/about-the-author" className="btn">
+                    <AniLink
+                        cover
+                        bg="#020c15"
+                        to="/about-the-author"
+                        className="btn"
+                    >
                         ABOUT THE AUTHOR
-                    </Link>
+                    </AniLink>
                 </p>
             </div>
             <div className={styles["book-list"]}>
@@ -61,12 +67,14 @@ const Banner = () => {
                 </p>
                 <div className="flex justify-content-center">
                     <div className={styles.book}>
-                        <Link
+                        <AniLink
+                            cover
+                            bg="#020c15"
                             to="/books/proud-to-be-me-part-1"
                             className={styles["book-link"]}
                         >
                             <img src="book-1.jpg" alt="" />
-                        </Link>
+                        </AniLink>
                         <p style={{ width: 250 }}>
                             <small>
                                 A beautiful Mexican girl, ventures out to Los
@@ -77,12 +85,15 @@ const Banner = () => {
                         </p>
                     </div>
                     <div className={styles.book}>
-                        <Link
+                        <AniLink
+                            cover
+                            bg="#020c15"
                             to="/books/proud-to-be-me-part-2"
+                            duration={1}
                             className={styles["book-link"]}
                         >
                             <img src="book-2.jpg" alt="" />
-                        </Link>
+                        </AniLink>
                         <p style={{ width: 250 }}>
                             <small>
                                 Rosalinda's passion for boxing has made her a
@@ -93,9 +104,14 @@ const Banner = () => {
                         </p>
                     </div>
                     <div className={styles.book}>
-                        <a href="#coming-soon" className={styles["book-link"]}>
+                        <AniLink
+                            cover
+                            bg="#020c15"
+                            to="#coming-soon"
+                            className={styles["book-link"]}
+                        >
                             <img src="book-3.jpg" alt="" />
-                        </a>
+                        </AniLink>
                         <p style={{ width: 250 }}>
                             <small>
                                 Jesse Moreno's third book is under production.
@@ -106,6 +122,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
