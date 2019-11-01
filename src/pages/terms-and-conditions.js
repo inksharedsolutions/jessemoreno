@@ -5,7 +5,7 @@ import Layout from "../layout/layout";
 
 const Terms = () => {
     return (
-        <Layout className={`white-bg`} logo={`logo.png`}>
+        <Layout className={`white-bg`} logo={`/jessemoreno/logo.png`}>
             <SiteMetadata />
             <Helmet>
                 <title>Terms and Conditions</title>
