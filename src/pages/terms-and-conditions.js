@@ -11,6 +11,7 @@ const Terms = () => {
                 <title>Terms and Conditions</title>
             </Helmet>
             <div className="container" style={{ fontWeight: 300 }}>
+                <h1 style={{ fontSize: "3rem" }}>Terms and Conditions</h1>
                 <p>
                     Rufus Johnson offers this Web site, including all
                     information, software, products and services available from

@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 const SiteMetadata = () => {
     return (
         <Helmet titleTemplate="%s | Jesse Moreno" defaultTitle="Jesse Moreno">
-            <link rel="shortcut icon" type="image/png" href="favicon.png" />
+            <link rel="shortcut icon" type="image/png" href={`/favicon.png`} />
             <link
                 rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"

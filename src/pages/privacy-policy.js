@@ -13,7 +13,7 @@ const Privacy = () => {
             </Helmet>
 
             <div className="container" style={{ fontWeight: 300 }}>
-                <h1>Privacy Policy</h1>
+                <h1 style={{ fontSize: "3rem" }}>Privacy Policy</h1>
                 <p>
                     Jesse Moreno's website is committed to safeguarding and
                     preserving the privacy of our visitors.
