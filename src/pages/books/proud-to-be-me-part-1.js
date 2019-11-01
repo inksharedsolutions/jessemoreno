@@ -9,14 +9,14 @@ const Book1 = () => {
         title: `Proud To Be Me: Rosalinda`,
     };
     return (
-        <Layout className="white-bg" logo={`/logo.png`}>
+        <Layout className="white-bg" logo={`../logo.png`}>
             <Helmet>
                 <title>Proud To Be Me: Rosalinda</title>
             </Helmet>
             <div className="container" style={{ backgroundColor: "#fff" }}>
                 <Post
                     disqusConfig={disqusConfig}
-                    cover={`part1.jpg`}
+                    cover={`../part1.jpg`}
                     title="Proud To Be Me: Rosalinda"
                 >
                     <p>Rosalinda,</p>
