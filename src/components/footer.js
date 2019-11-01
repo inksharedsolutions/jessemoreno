@@ -7,12 +7,12 @@ const Footer = () => {
         <footer className={styles["terms-privacy-links"]}>
             <ul className="flex">
                 <li>
-                    <AniLink cover to="/terms-and-conditions">
+                    <AniLink cover bg="#020c15" to="/terms-and-conditions">
                         Terms and Conditions
                     </AniLink>
                 </li>
                 <li>
-                    <AniLink cover to="/privacy-policy">
+                    <AniLink cover bg="#020c15" to="/privacy-policy">
                         Privacy Policy
                     </AniLink>
                 </li>
