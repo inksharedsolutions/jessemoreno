@@ -6,6 +6,7 @@
 const autoprefixer = require("autoprefixer");
 
 module.exports = {
+    pathPrefix: `/jessmoreno`,
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-transition-link`,
