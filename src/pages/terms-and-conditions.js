@@ -44,8 +44,8 @@ const Terms = () => {
                     the like warrant that the Web site or its operation will be
                     accurate, reliable, uninterrupted or error-free. No agent or
                     representative has the authority to create any warranty
-                    regarding the Web site on behalf of Jesse Moreno. Rufus
-                    Johnson reserves the right to change or discontinue at any
+                    regarding the Web site on behalf of Jesse Moreno. Jesse
+                    Moreno reserves the right to change or discontinue at any
                     time any aspect or feature of the Web site.
                 </p>
                 <h2
