@@ -13,12 +13,12 @@ const Terms = () => {
             <div className="container" style={{ fontWeight: 300 }}>
                 <h1 style={{ fontSize: "3rem" }}>Terms and Conditions</h1>
                 <p>
-                    Rufus Johnson offers this Web site, including all
+                    Jesse Moreno offers this Web site, including all
                     information, software, products and services available from
                     this Web site or offered as part of or in conjunction with
                     this Web site (the “Web site”), to you, the user,
                     conditioned upon your acceptance of all of the terms,
-                    conditions, policies and notices stated here. Rufus Johnson
+                    conditions, policies and notices stated here. Jesse Moreno
                     reserves the right to make changes to these Terms and
                     Conditions immediately by posting the changed Terms and
                     Conditions in this location.
@@ -26,7 +26,7 @@ const Terms = () => {
                 <p>
                     Your continued use of the Web site constitutes your
                     agreement to all such terms, conditions and notices, and any
-                    changes to the Terms and Conditions made by Rufus Johnson.
+                    changes to the Terms and Conditions made by Jesse Moreno.
                 </p>
                 <p>
                     The term ‘us’ or ‘we’ refers to the owner of the website.
@@ -39,12 +39,12 @@ const Terms = () => {
                 <p>
                     Use the website at your own risk. This website is provided
                     to you “as is,” without warranty of any kind either express
-                    or implied. Neither Rufus Johnson nor its employees, agents,
+                    or implied. Neither Jesse Moreno nor its employees, agents,
                     third-party information providers, merchants, licensors or
                     the like warrant that the Web site or its operation will be
                     accurate, reliable, uninterrupted or error-free. No agent or
                     representative has the authority to create any warranty
-                    regarding the Web site on behalf of Rufus Johnson. Rufus
+                    regarding the Web site on behalf of Jesse Moreno. Rufus
                     Johnson reserves the right to change or discontinue at any
                     time any aspect or feature of the Web site.
                 </p>
@@ -105,7 +105,7 @@ const Terms = () => {
                 </p>
                 <p>
                     Certain areas of this Website are restricted from access by
-                    you and Rufus Johnson may further restrict access by you to
+                    you and Jesse Moreno may further restrict access by you to
                     any areas of this Website, at any time, in its sole and
                     absolute discretion. Any user ID and password you may have
                     for this Website are confidential and you must maintain
@@ -129,20 +129,19 @@ const Terms = () => {
                     prior consent of the copyright owner.
                 </p>
                 <p>
-                    None of the material contained by Rufus Johnson may be
+                    None of the material contained by Jesse Moreno may be
                     reverse-engineered, disassembled, decompiled, transcribed,
                     stored in a retrieval system, translated into any language
                     or computer language, retransmitted in any form or by any
                     means (electronic, mechanical, photo reproduction,
                     recordation or otherwise), resold or redistributed without
-                    the prior written consent of Rufus Johnson. Violation of
-                    this provision may result in severe civil and criminal
-                    penalties.
+                    the prior written consent of Jesse Moreno. Violation of this
+                    provision may result in severe civil and criminal penalties.
                 </p>
                 <p>
                     Your Content must be your own and must not be infringing on
-                    any third party’s rights. Rufus Johnson reserves the right
-                    to remove any of Your Content from this Website at any time,
+                    any third party’s rights. Jesse Moreno reserves the right to
+                    remove any of Your Content from this Website at any time,
                     and for any reason, without notice.
                 </p>
             </div>

@@ -35,7 +35,7 @@ const About = () => {
                     the future with dates already planned.
                 </p>
                 <p className="btn">
-                    <AniLink cover to="/books">
+                    <AniLink cover to="/books/proud-to-be-me-part-1">
                         EXPLORE HIS BOOKS
                     </AniLink>
                 </p>
