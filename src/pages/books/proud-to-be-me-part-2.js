@@ -50,6 +50,66 @@ const Book2 = () => {
                         remain the champion and keep her stardom for her country
                         and the United States?
                     </p>
+                    <p>
+                        <strong
+                            style={{
+                                display: "inline-block",
+                                marginBottom: 5,
+                            }}
+                        >
+                            Buy now:
+                        </strong>
+                        <ul className="tags flex" style={{ marginTop: 0 }}>
+                            <li>
+                                <a
+                                    href="https://www.amazon.com/Proud-Be-Me-Rosalinda-Part/dp/164345532X/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <span
+                                        style={{
+                                            backgroundColor: "#1180e1",
+                                            color: "#fff",
+                                        }}
+                                    >
+                                        Amazon
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.barnesandnoble.com/w/proud-to-be-me-rosalinda-jesse-moreno/1137152740"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <span
+                                        style={{
+                                            backgroundColor: "#1180e1",
+                                            color: "#fff",
+                                        }}
+                                    >
+                                        Barnes and Noble
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.stratton-press.com/books/proud-to-be-me-rosalinda-part-ii/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <span
+                                        style={{
+                                            backgroundColor: "#1180e1",
+                                            color: "#fff",
+                                        }}
+                                    >
+                                        Stratton Press
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </p>
                 </Post>
             </div>
         </Layout>
