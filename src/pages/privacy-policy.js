@@ -6,7 +6,7 @@ import Layout from "../layout/layout";
 
 const Privacy = () => {
     return (
-        <Layout className={`white-bg`} logo={`/jessemoreno/logo.png`}>
+        <Layout className={`white-bg`} logo={`/logo.png`}>
             <SiteMetadata />
             <Helmet>
                 <title>Privacy Policy</title>
