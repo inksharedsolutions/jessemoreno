@@ -14,7 +14,7 @@ const About = () => {
                 <h1>JESSE MORENO</h1>
                 <p>
                     Writing has become a passion for me, even though I started
-                    late in my life. I was inspired on 2013 by watching a Oscar
+                    late in my life. I was inspired on 2013 by watching an Oscar
                     winning movie, "The Million Dollar Baby," and have not stop
                     thinking of events and scenarios from that point on and
                     discovered that it’s what I wanted to do, so I started and
@@ -27,7 +27,7 @@ const About = () => {
                     I live along the west coast by San Luis Obispo, California,
                     but I’m originally from Visalia, California. I served in the
                     Air Force for four years during the Vietnam era and proud to
-                    have done so, except for my follow friends who never came
+                    have done so, except for my fellow friends who never came
                     back. "Salute to them." My writings are set to continue with
                     "Proud to Be Me Rosalinda" in a five-part series with other
                     stories waiting to be completed. I have done a few book
