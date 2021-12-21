@@ -78,8 +78,12 @@ const Header = props => {
                                     </AniLink>
                                 </li>
                                 <li>
-                                    <AniLink cover bg="#020c15" to="/">
-                                        Coming Soon
+                                    <AniLink 
+                                        cover 
+                                        bg="#020c15"
+                                        to="/books/proud-to-be-me-part-3"
+                                        activeClassName={"current"} >
+                                        Proud To Be Me: Rosalinda Part III
                                     </AniLink>
                                 </li>
                             </ul>

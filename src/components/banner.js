@@ -42,6 +42,7 @@ const Banner = () => {
                 </p>
                 <p className={`p-relative`}>
                     <a
+                        // href="https://www.stratton-press.com/books/proud-to-be-me-rosalinda/"
                         href="https://www.stratton-press.com/books/proud-to-be-me-rosalinda/"
                         className="btn"
                         target="_blank"
@@ -107,16 +108,16 @@ const Banner = () => {
                         <AniLink
                             cover
                             bg="#020c15"
-                            to="#coming-soon"
+                            to="/books/proud-to-be-me-part-3"
                             className={styles["book-link"]}
                         >
-                            <img src="book-3.jpg" alt="" />
+                            <img src="book-3.png" alt="" />
                         </AniLink>
                         <p style={{ width: 250 }}>
                             <small>
-                                Jesse Moreno's third book is under production.
-                                Check this website regularly and be the first to
-                                get the book once it's released!
+                                Rosalinda continued her dreams inspite of her adversities,
+                                tragical fatal moments, and challengers who challenged her
+                                for the title...
                             </small>
                         </p>
                     </div>

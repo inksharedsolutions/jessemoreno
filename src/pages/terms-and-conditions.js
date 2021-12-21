@@ -13,10 +13,10 @@ const Terms = () => {
             <div className="container" style={{ fontWeight: 300 }}>
                 <h1 style={{ fontSize: "3rem" }}>Terms and Conditions</h1>
                 <p>
-                    Jesse Moreno offers this Web site, including all
+                    Jesse Moreno offers this Website, including all
                     information, software, products and services available from
-                    this Web site or offered as part of or in conjunction with
-                    this Web site (the “Web site”), to you, the user,
+                    this Website or offered as part of or in conjunction with
+                    this Website (the “Website”), to you, the user,
                     conditioned upon your acceptance of all of the terms,
                     conditions, policies and notices stated here. Jesse Moreno
                     reserves the right to make changes to these Terms and
@@ -24,7 +24,7 @@ const Terms = () => {
                     Conditions in this location.
                 </p>
                 <p>
-                    Your continued use of the Web site constitutes your
+                    Your continued use of the Website constitutes your
                     agreement to all such terms, conditions and notices, and any
                     changes to the Terms and Conditions made by Jesse Moreno.
                 </p>
@@ -39,9 +39,9 @@ const Terms = () => {
                 <p>
                     Use the website at your own risk. This website is provided
                     to you “as is,” without warranty of any kind either express
-                    or implied. Neither Jesse Moreno nor its employees, agents,
+                    or implied. Neither Jesse Moreno nor his employees, agents,
                     third-party information providers, merchants, licensors or
-                    the like warrant that the Web site or its operation will be
+                    the like warrant that the Website or its operation will be
                     accurate, reliable, uninterrupted or error-free. No agent or
                     representative has the authority to create any warranty
                     regarding the Web site on behalf of Jesse Moreno. Jesse
@@ -106,7 +106,7 @@ const Terms = () => {
                 <p>
                     Certain areas of this Website are restricted from access by
                     you and Jesse Moreno may further restrict access by you to
-                    any areas of this Website, at any time, in its sole and
+                    any areas of this Website, at any time, in his sole and
                     absolute discretion. Any user ID and password you may have
                     for this Website are confidential and you must maintain
                     confidentiality of such information.
@@ -117,15 +117,15 @@ const Terms = () => {
                     <strong>Copyright</strong>
                 </h2>
                 <p>
-                    Except for material in the public domain under United States
+                    Except for material in the public domain under the United States
                     of America copyright law, all material contained on the
                     Website (including all software, HTML code, and other code)
-                    is protected by United States of America and foreign
+                    is protected by the United States of America and foreign
                     copyright laws. Except as otherwise expressly provided in
                     these terms and conditions, you may not copy, distribute,
                     transmit, display, perform, reproduce, publish, license,
                     modify, rewrite, create derivative works from, transfer, or
-                    sell any material contained on the Web site without the
+                    sell any material contained on the Website without the
                     prior consent of the copyright owner.
                 </p>
                 <p>

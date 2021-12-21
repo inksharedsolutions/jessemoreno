@@ -15,8 +15,7 @@ const Privacy = () => {
             <div className="container" style={{ fontWeight: 300 }}>
                 <h1 style={{ fontSize: "3rem" }}>Privacy Policy</h1>
                 <p>
-                    Jesse Moreno's website is committed to safeguarding and
-                    preserving the privacy of our visitors.
+                    Jesse Moreno's website is committed to safeguarding and preserving the privacy of our visitors.
                 </p>
                 <p>
                     This Policy explains what happens to any personal data that
@@ -24,8 +23,7 @@ const Privacy = () => {
                     visit our site and how we use cookies on this website.
                 </p>
                 <p>
-                    This Policy from time to time so please do review this
-                    Policy regularly.
+                    This Policy changes from time to time so please do review this Policy regularly.
                 </p>
                 <h2
                     style={{ marginTop: 35, fontSize: "2rem", marginBottom: 0 }}
@@ -34,8 +32,7 @@ const Privacy = () => {
                 </h2>
                 <p>
                     In running and maintaining our website, Jesse Moreno's
-                    website may collect and process the following data about
-                    you:
+                    website may collect and process the following data about you:
                 </p>
                 <p>
                     Information about your use of our site including details of
@@ -48,8 +45,7 @@ const Privacy = () => {
                     you register for information or make a purchase.
                 </p>
                 <p>
-                    Information that you provide when you communicate with us by
-                    any means.
+                    Information that you provide when you communicate with us by any means.
                 </p>
                 <h2
                     style={{ marginTop: 35, fontSize: "2rem", marginBottom: 0 }}
@@ -121,7 +117,7 @@ const Privacy = () => {
                 </h2>
                 <p>
                     In operating our website it may become necessary to transfer
-                    data that we collect from you to locations outside United
+                    data that we collect from you to locations outside the United
                     States of America for processing and storing. By providing
                     your personal data to us, you agree to this transfer,
                     storing and processing. We do our utmost to ensure that all
@@ -146,8 +142,7 @@ const Privacy = () => {
                     in the circumstances detailed below:
                 </p>
                 <p>
-                    In the event that we sell any or all of our business to the
-                    buyer.
+                    In the event that we sell any or all of our business to the buyer.
                 </p>
                 <p>
                     Where we are legally required by law to disclose your
