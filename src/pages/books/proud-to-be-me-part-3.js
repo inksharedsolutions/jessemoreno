@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../../layout/layout';
 import Post from '../../components/post';
 
-const Book2 = () => {
+const Book3 = () => {
 	let disqusConfig = {
 		url: `http://localhost:8000/books/proud-to-be-me-part-3`,
 		// identifier: `/proud-to-be-me-part-2`,
@@ -85,4 +85,4 @@ const Book2 = () => {
 	);
 };
 
-export default Book2;
+export default Book3;

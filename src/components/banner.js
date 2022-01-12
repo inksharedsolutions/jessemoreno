@@ -71,26 +71,7 @@ const Banner = () => {
                         <AniLink
                             cover
                             bg="#020c15"
-                            to="/books/proud-to-be-me-part-1"
-                            className={styles["book-link"]}
-                        >
-                            <img src="book-1.jpg" alt="" />
-                        </AniLink>
-                        <p style={{ width: 250 }}>
-                            <small>
-                                A beautiful Mexican girl, ventures out to Los
-                                Angeles at the age of twenty-five, not knowing
-                                what her future and career was going to entail.
-                                After being in Los Angeles for a few months...
-                            </small>
-                        </p>
-                    </div>
-                    <div className={styles.book}>
-                        <AniLink
-                            cover
-                            bg="#020c15"
                             to="/books/proud-to-be-me-part-2"
-                            duration={1}
                             className={styles["book-link"]}
                         >
                             <img src="book-2.jpg" alt="" />
@@ -109,6 +90,7 @@ const Banner = () => {
                             cover
                             bg="#020c15"
                             to="/books/proud-to-be-me-part-3"
+                            duration={1}
                             className={styles["book-link"]}
                         >
                             <img src="book-3.png" alt="" />
@@ -121,6 +103,25 @@ const Banner = () => {
                             </small>
                         </p>
                     </div>
+                    <div className={styles.book}>
+                        <AniLink
+                            cover
+                            bg="#020c15"
+                            to="/books/proud-to-be-me-part-4"
+                            className={styles["book-link"]}
+                        >
+                            <img src="book-4.png" alt="" />
+                        </AniLink>
+                        <p style={{ width: 250 }}>
+                            <small>
+                                Rosalinda continues her journey with more obstacles and
+                                adversities crossing her path. The most important day of
+                                her career is forthcoming with the one who took the title
+                                away from her...
+                            </small>
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
             <Footer />

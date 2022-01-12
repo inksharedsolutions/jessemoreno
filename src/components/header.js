@@ -86,6 +86,15 @@ const Header = props => {
                                         Proud To Be Me: Rosalinda Part III
                                     </AniLink>
                                 </li>
+                                <li>
+                                    <AniLink 
+                                        cover 
+                                        bg="#020c15"
+                                        to="/books/proud-to-be-me-part-4"
+                                        activeClassName={"current"} >
+                                        Proud To Be Me: Rosalinda Part IV
+                                    </AniLink>
+                                </li>
                             </ul>
                         </li>
                         <li className={"menu-item"}>
