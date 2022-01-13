@@ -43,7 +43,7 @@ const Banner = () => {
                 <p className={`p-relative`}>
                     <a
                         // href="https://www.stratton-press.com/books/proud-to-be-me-rosalinda/"
-                        href="https://www.stratton-press.com/books/proud-to-be-me-rosalinda/"
+                        href="https://www.amazon.com/dp/1643456180/ref=sr_1_1?keywords=9781643456188&qid=1563204703&s=gateway&sr=8-1"
                         className="btn"
                         target="_blank"
                         rel="noopener noreferrer"
