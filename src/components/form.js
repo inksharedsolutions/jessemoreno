@@ -29,9 +29,14 @@ export default class MyForm extends React.Component {
                     >
                         <ul>
                             <li>
+                            <input
+                                    type="hidden"
+                                    name="author"
+                                    value="Jesse Moreno"
+                                />
                                 <input
                                     type="text"
-                                    name="Name"
+                                    name="fullname"
                                     placeholder="Enter full name"
                                     required
                                 />
@@ -39,14 +44,14 @@ export default class MyForm extends React.Component {
                             <li>
                                 <input
                                     type="email"
-                                    name="Email"
+                                    name="email"
                                     placeholder="Enter email"
                                     required
                                 />
                             </li>
                             <li>
                                 <textarea
-                                    name="Message"
+                                    name="message"
                                     placeholder="Enter message"
                                     required
                                 ></textarea>
